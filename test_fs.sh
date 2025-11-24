@@ -2,7 +2,7 @@
 
 BIN=./sfs
 
-echo "===== File System Tests ====="
+echo "File System Tests"
 
 # Check if sfs exists
 if [ ! -f "$BIN" ]; then
@@ -25,7 +25,7 @@ send() {
     echo "$1" >&3
 }
 
-echo "=== Starting automated tests ==="
+echo " Starting automated tests "
 
 ### TEST 1: File Creation ###
 echo "[1] Creating files..."

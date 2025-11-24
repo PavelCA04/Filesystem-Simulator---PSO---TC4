@@ -186,7 +186,7 @@ File 'file1.txt' deleted.
 
 ## Included Tests
 
-At the end of the project, several test scripts were created to validate the functionality and robustness of the filesystem simulator. They are automated bash scripts located in the `/tests` directory.
+At the end of the project, several test scripts were created to validate the functionality and robustness of the filesystem simulator. They are automated bash scripts located in the main directory.
 
 ### ✔ `test_fs.sh` – Basic functional tests
 Creates, writes, reads, lists and deletes multiple files.
@@ -194,7 +194,7 @@ Creates, writes, reads, lists and deletes multiple files.
 ### ✔ `test_hs.sh` – 1000-operation stress test
 Heavy load testing.
 
-### ✔ `fuzz_fs.sh` – Professional fuzz tester
+### ✔ `fuzz_fs.sh` – 2000+ operation tests
 Thousands of random operations to test robustness.
 
 All tests were run and the system responded correctly without corruption or block leaks.

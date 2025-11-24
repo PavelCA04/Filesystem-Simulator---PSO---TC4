@@ -92,7 +92,7 @@ static void print_help(void) {
 int main(void) {
     fs_init();
 
-    printf("=== Simple Filesystem (Simulator) ===\n");
+    printf("Filesystem Simulator\n");
     printf("Total space: %zu bytes, block: %d bytes, max files: %d\n",
            (size_t)FS_TOTAL_SIZE, FS_BLOCK_SIZE, FS_MAX_FILES);
     printf("Type 'HELP' to see the commands.\n\n");

@@ -9,7 +9,7 @@ exec 3> $PIPE
 
 send() { echo "$1" >&3; }
 
-echo "=== Stress test: 1000 operations ==="
+echo " Stress test: 1000 operations "
 
 for i in $(seq 1 200); do
     send "CREATE test$i 512"
@@ -34,4 +34,4 @@ sleep 1
 kill $PID 2>/dev/null
 rm -f $PIPE
 
-echo "=== Stress Test Complete ==="
+echo " Stress Test Complete "
